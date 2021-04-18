@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         simulateDayNight(/*DAY*/0);
         Element adsElement=new Element();
         adsElement.setTitle("Advertise with us");
-        View aboutPage=new AboutPage(context: this)
+        View aboutPage=new AboutPage(this)
                 .isRTL(false)
                 .setImage(R.drawable.subscribe)
                 .addItem(new Element().setTitle ("version 6.2"))
